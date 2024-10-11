@@ -78,20 +78,20 @@ onUnmounted(() => {
 const router = useRouter();
 
 const items = ref([
-    {
-        label: 'Projects',
-        icon: 'pi pi-folder',
-        command: () => {
-            router.push('/projects');
-        }
-    },
-    {
-        label: 'About me',
-        icon: 'pi pi-envelope',
-        command: () => {
-            window.location.href = "/about";
-        }
+  {
+    label: 'Projects',
+    icon: 'pi pi-folder',
+    command: () => {
+      router.push('/projects');
     }
+  },
+  {
+    label: 'About me',
+    icon: 'pi pi-envelope',
+    command: () => {
+      router.push('/about');
+    }
+  }
 ]);
 </script>
 
