@@ -1,19 +1,22 @@
 <template>
-  <div class="flex flex-col h-screen">
+  <div class="flex flex-col min-h-screen">
     <header>
       <Navbar />
     </header>
     <main class="flex-grow">
-      <div class="h-full">
+      <div class="flex-grow flex items-center justify-center py-6">
         <router-view />
       </div>
+    </main>
+    <footer class="mt-auto">
       <Card>
         <template #content>
           <div class="flex flex-row gap-4 items-center justify-center py-4">
             <div class="flex flex-row items-center justify-evenly space-x-4 select-none">
               <div class="w-[60%]">
                 <p class="mb-3 footer-title">Matheus Lima Moreira</p>
-                <p class="footer-text mb-1">Fullstack/Back-End Developer, transitioning from a strong background in HR and finance to tech,
+                <p class="footer-text mb-1">Fullstack/Back-End Developer, transitioning from a strong background in HR
+                  and finance to tech,
                   specializing in Python, Java.</p>
                 <p class="footer-text">I love using technology to create impactful solutions.
                 </p>
@@ -50,7 +53,7 @@
           <p class="m-0 text-center text-xs select-none">&copy; 2024 Mathlimam. Todos os direitos reservados.</p>
         </template>
       </Card>
-    </main>
+    </footer>
   </div>
 
   <div class="dock-wrapper w-min">
