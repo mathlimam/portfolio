@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full w-[98%] m-auto flex items-center justify-center pb-4">
+    <div class="w-[98%] h-[90vh] mx-auto my-4">
         <Card class="w-full h-full flex items-center justify-center text-center"
             :class="['card', darkMode ? 'card-background-dark' : 'card-background-light']">
             <template #title>
@@ -7,9 +7,9 @@
             </template>
             <template #content>
                 <p class="card-text m-0 select-none">
-                  Fullstack/Back-End Developer, transitioning from a strong background in HR and finance to tech,
-                  specializing in Python, Java, JavaScript, and cloud solutions. Skilled in building efficient,
-                  scalable systems with a focus on innovative software development.
+                    Fullstack/Back-End Developer, transitioning from a strong background in HR and finance to tech,
+                    specializing in Python, Java, JavaScript, and cloud solutions. Skilled in building efficient,
+                    scalable systems with a focus on innovative software development.
                 </p>
                 <p class="card-text m-0 select-none">
                     I’m passionate about leveraging technology to create solutions that make a difference. Explore my
